@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <style>
-        #specifyColor {
-            accent-color: red;
-        }
-    </style>
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="background">
@@ -22,36 +20,36 @@
                     </div>
                     <div class="main">
                         <div class="main-top">
-                            <ul class="main-top-left">
-                                <li class="main-top-left-column">
-                                    <h3 class="main-top-left-text">FIRST NAME</h3>    
-                                    <input type="text" class="main-top-input">
-                                </li>
-                                <li class="main-top-left-column">
-                                    <h3 class="main-top-left-text">LAST NAME</h3>
-                                    <input type="text" class="main-top-input">
-                                </li>
-                                <li class="main-top-left-column">
-                                    <h3 class="main-top-left-text">COMPANY</h3> 
-                                    <input type="text" class="main-top-input">
-                                </li>
-                                <li class="main-top-left-column">
-                                    <h3 class="main-top-left-text">EMAIL</h3>
-                                    <input type="text" class="main-top-input">
-                                </li>
-                                <li class="main-top-left-column">
-                                    <h3 class="main-top-left-text">PHONE NUMBER</h3>
-                                    <input type="text" class="main-top-input">
-                                </li>
-                            </ul>
-                            <ul class="main-top-right">
-                                <li class="main-top-right-column">
-                                    <h3 class="main-top-right-text">GENDER</h3>
+                            <div class="main-top-left">
+                                <div class="main-item">
+                                    <label class="label">FIRST NAME</label>    
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">LAST NAME</label>
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">COMPANY</label> 
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">EMAIL</label>
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">PHONE NUMBER</label>
+                                    <input type="text" class="input">
+                                </div>
+                            </div>
+                            <div class="main-top-right">
+                                <div class="main-item">
+                                    <label class="label">GENDER</label>
                                     <select name="" id="" class="main-top-right-select"> 
                                     </select>
-                                </li>
-                                <li class="main-top-right-column">
-                                    <h3 class="main-top-right-text">PAYMENT MODE</h3>
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">PAYMENT MODE</label>
                                     <div class="main-top-right-check">
                                         <label class="main-top-right-checkbox">
                                             <input type="radio" name="radio" class="main-top-right-checkbox-button">
@@ -67,24 +65,25 @@
                                             
                                         </label>
                                     </div>
-                                </li>
-                                <li class="main-top-right-column">
-                                    <h3 class="main-top-right-text">CARD NUMBER</h3>
-                                    <input type="text" class="main-top-input">
-                                </li>
-                                <li class="main-top-right-column">
-                                    <h3 class="main-top-right-text">EXPIRATION</h3>
-                                    <input type="text" class="main-top-input">
-                                </li>
-                                <li class="main-top-right-column">
-                                    <h3 class="main-top-right-text">CVN</h3>
-                                    <input type="text" class="main-top-input">
-                                </li>
-                            </ul>
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">CARD NUMBER</label>
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">EXPIRATION</label>
+                                    <input type="text" class="input">
+                                </div>
+                                <div class="main-item">
+                                    <label class="label">CVN</label>
+                                    <input type="text" class="input">
+                                </div>
+                            </div>
                         </div>
                         <div class="main-bottom">
                             <div class="main-bottom-top">
-                                <h3 class="main-bottom-top-text">DONATE US</h3>
+                                <label class="label">DONATE US</label>
+                                <input type="range" min="1" max="100" value="50" class="slider">
                             </div>
                             <div class="main-bottom-button">
                                 <div class="main-bottom-button-primary">
